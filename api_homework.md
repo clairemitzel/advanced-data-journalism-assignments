@@ -1,10 +1,9 @@
 1. What URL would you use to get a list of the the most recent votes in the House?
-   https://api.propublica.org/congress/v1/house/votes/recent.json
+   'https://api.propublica.org/congress/v1/house/votes/recent.json'
 
 
 2. How about to get a list of all members of Congress from Missouri?
-   'https://api.propublica.org/congress/v1/members/both/mo/current.json' and GET    
-   https://api.propublica.org/congress/v1/members/house/mo/{district}/current.json
+   'https://api.propublica.org/congress/v1/members/both/mo/current.json' and 'https://api.propublica.org/congress/v1/members/house/mo/{district}/current.json'
 
 3. The New York Times used a version of this API to do this interactive about the sequence of votes leading up to the confirmation of Neil Gorsuch to the Supreme Court. How would you use the API to get the information about these votes? Hint: The votes were on April 6/7, 2017.
 
